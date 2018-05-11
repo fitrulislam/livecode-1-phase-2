@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <h4>Hello {{ name }} ^^</h4>
-  <button type="button" name="button" class="btn btn-danger btn-md" @click="signout">Sign Out</button>
+  <button type="button" name="button" class="btn btn-danger btn-md" @click="signout">Sign Out</button><br><br>
   <div class="input">
     <div class="form-group">
       <input type="file" @change="getImage">
@@ -70,6 +70,9 @@ export default {
 </script>
 
 <style scoped>
+.container .input {
+  align-items: center;
+}
 .container h4 {
   font-family: 'Playfair Display', serif;
 }

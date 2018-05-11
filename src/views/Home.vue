@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="input">
+      <h4>Login Client Livecode</h4>
       <div class="form-group">
         <input type="text" class="form-control" v-model="email" placeholder="email">
       </div>
@@ -89,5 +90,8 @@ export default {
 .container .input {
   align-self: center;
   width: 350px;
+}
+.container h4 {
+  font-family: 'Playfair Display', serif;
 }
 </style>
